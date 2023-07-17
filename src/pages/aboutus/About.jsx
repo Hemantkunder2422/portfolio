@@ -38,7 +38,7 @@ const About = () => {
             consequuntur!
           </p>
           <a href="/works" className="my-resume">
-            My Resume
+            My Resumes
           </a>
         </article>
       </section>
