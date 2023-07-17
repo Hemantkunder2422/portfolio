@@ -37,7 +37,7 @@ const About = () => {
             architecto unde nulla ipsum repellendus error corrupti totam, quod
             consequuntur!
           </p>
-          <a href="#" className="my-resume">
+          <a href="/works" className="my-resume">
             My Resume
           </a>
         </article>
