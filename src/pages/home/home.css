@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+.home__text,
+.home__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__text > ul {
+  list-style-type: none;
+  font-size: 9rem;
+  margin: 0;
+  font-family: "Fredoka One", cursive;
+  color: #fff;
+  line-height: 9rem;
+}
+.home__text > ul > li {
+  cursor: pointer;
+  width: fit-content;
+}
+.text-red {
+  color: #ea0f1e;
+}
+
+.home__wrapper {
+  display: flex;
+}
+.home__text,
+.home__image {
+  flex: 1;
+}
+.home__image > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.slide {
+  margin-left: 3rem;
+}
+
+.about:hover,
+.work:hover,
+.contact:hover {
+  margin-left: 50px;
+  transition: 0.5s;
+}

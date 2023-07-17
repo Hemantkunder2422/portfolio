@@ -1,0 +1,8 @@
+.navlink {
+  position: fixed;
+  top: 10%;
+  right: 7%;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}

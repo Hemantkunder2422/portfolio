@@ -1,0 +1,35 @@
+.aboutus {
+  color: #fff;
+}
+
+.aboutus > main {
+  font-size: 5rem;
+}
+.aboutus > main > h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 65%;
+  margin: 0 auto;
+}
+.hero-image > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#about-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-resume {
+  color: #ea0f1e;
+  text-decoration: none;
+  font-size: 15px;
+}
+#about-desc > .title {
+  width: 60%;
+  margin: 0 auto;
+}

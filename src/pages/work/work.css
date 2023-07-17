@@ -1,0 +1,10 @@
+.myworks-wrapper {
+  color: #fff;
+}
+.myworks-wrapper > ul {
+  list-style-type: none;
+}
+.myworks-wrapper > ul > li > h3 {
+  font-size: 5rem;
+  margin: 35px 0;
+}
