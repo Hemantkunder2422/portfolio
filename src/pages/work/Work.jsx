@@ -9,10 +9,10 @@ const Work = () => {
       <Navlink />
       <div className="myworks-wrapper">
         <ul>
-          {data.map((project) => {
-            const { projectName, url, desc } = project;
+          {data.map((project, index) => {
+            const { projectName, desc } = project;
             return (
-              <li>
+              <li key={index}>
                 <h3>{projectName}</h3>
                 <p>{desc}</p>
               </li>
