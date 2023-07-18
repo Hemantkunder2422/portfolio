@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100dvh;
+  min-height: 100dvh;
 }
 .home__text,
 .home__image {

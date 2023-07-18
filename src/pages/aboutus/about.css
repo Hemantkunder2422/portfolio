@@ -1,5 +1,10 @@
 .aboutus {
   color: #fff;
+  padding: 5% 0;
+}
+
+* {
+  font-family: "Fredoka One", sans-serif;
 }
 
 .aboutus > main {
@@ -32,4 +37,32 @@
 #about-desc > .title {
   width: 60%;
   margin: 0 auto;
+}
+
+.download-cv {
+  color: #ea0f1e;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 1px solid #ea0f1e;
+}
+.download-cv:hover {
+  color: #ea0f1e;
+  text-decoration: none;
+}
+
+section#about-desc > article > p {
+  font-size: 24px;
+  font-family: monospace;
+  line-height: 1.3;
+}
+#about-desc > .title > h2 {
+  font-size: 33px;
+  letter-spacing: 3px;
+  color: #ea0f1e;
 }
