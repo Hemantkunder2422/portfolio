@@ -4,28 +4,14 @@ import Profilepic from "../../../src/assets/images/DejanHome.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const [about, setAbout] = useState("Hello.");
-  const [work, setWork] = useState("I am");
-  const [contact, setContact] = useState("Hemant");
+  const [hoveredText, setHoveredText] = useState(null);
 
-  const AboutenterHandler = () => {
-    setAbout("About");
-  };
-  const AboutLeaveHandler = () => {
-    setAbout("Hello.");
+  const handleMouseEnter = (text) => {
+    setHoveredText(text);
   };
 
-  const WorkEnterHandler = () => {
-    setWork("Work");
-  };
-  const WorkLeaveHandler = () => {
-    setWork("I am");
-  };
-  const ContactEnterHandler = () => {
-    setContact("Contact");
-  };
-  const ContactLeaveHandler = () => {
-    setContact("Hemant");
+  const handleMouseLeave = () => {
+    setHoveredText(null);
   };
 
   return (
@@ -35,29 +21,33 @@ const Home = () => {
           <ul>
             <Link to="/about" style={{ textDecoration: "none", color: "#fff" }}>
               <li
-                className="about"
-                onMouseEnter={AboutenterHandler}
-                onMouseLeave={AboutLeaveHandler}
+                className={hoveredText === "About" ? "about" : ""}
+                onMouseEnter={() => handleMouseEnter("About")}
+                onMouseLeave={handleMouseLeave}
               >
-                {about}
+                {hoveredText === "About" ? "About" : "Hello."}
               </li>
             </Link>
             <Link to="/work" style={{ textDecoration: "none" }}>
               <li
-                className="text-red work"
-                onMouseEnter={WorkEnterHandler}
-                onMouseLeave={WorkLeaveHandler}
+                className={
+                  hoveredText === "Work" ? "text-red work" : "text-red"
+                }
+                onMouseEnter={() => handleMouseEnter("Work")}
+                onMouseLeave={handleMouseLeave}
               >
-                {work}
+                {hoveredText === "Work" ? "Work" : "I am"}
               </li>
             </Link>
             <Link to="/contact" style={{ textDecoration: "none" }}>
               <li
-                className="text-red contact"
-                onMouseEnter={ContactEnterHandler}
-                onMouseLeave={ContactLeaveHandler}
+                className={
+                  hoveredText === "Contact" ? "text-red contact" : "text-red"
+                }
+                onMouseEnter={() => handleMouseEnter("Contact")}
+                onMouseLeave={handleMouseLeave}
               >
-                {contact}
+                {hoveredText === "Contact" ? "Contact" : "Hemant"}
               </li>
             </Link>
           </ul>
