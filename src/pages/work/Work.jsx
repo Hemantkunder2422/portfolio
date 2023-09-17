@@ -22,9 +22,7 @@ const Work = () => {
                 <div className="content-box">
                   <h3>{projectName}</h3>
                   <p>{desc}</p>
-                  <a href={url} target="_blank">
-                    View
-                  </a>
+                  <a href={url}>View</a>
                 </div>
               </li>
             );
