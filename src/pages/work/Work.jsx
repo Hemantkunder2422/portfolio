@@ -8,13 +8,24 @@ const Work = () => {
     <section class="myworks">
       <Navlink />
       <div className="myworks-wrapper">
-        <ul>
+        <div className="my-works-title">
+          <h1>My Sample Works</h1>
+        </div>
+        <ul className="my-works-grid">
           {data.map((project) => {
             const { projectName, url, desc } = project;
             return (
               <li>
-                <h3>{projectName}</h3>
-                <p>{desc}</p>
+                <div className="img-box">
+                  <img src="https://i.ibb.co/GCygp6H/image-1-1.png" alt="" />
+                </div>
+                <div className="content-box">
+                  <h3>{projectName}</h3>
+                  <p>{desc}</p>
+                  <a href={url} target="_blank">
+                    View
+                  </a>
+                </div>
               </li>
             );
           })}

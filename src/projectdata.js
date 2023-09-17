@@ -1,22 +1,7 @@
 export const data = [
   {
-    projectName: "Daily App Counter",
-    desc: "lorem ipsum dor color",
-    url: "/",
-  },
-  {
-    projectName: "Strip SubMenu",
-    desc: "lorem ipsum dor color",
-    url: "/",
-  },
-  {
-    projectName: "Jobster",
-    desc: "lorem ipsum dor color",
-    url: "/",
-  },
-  {
-    projectName: "Furniture Store",
-    desc: "lorem ipsum dor color",
-    url: "/",
+    projectName: "MovyPedia",
+    desc: "Explore a comprehensive movie encyclopedia app that offers ratings and engaging trailers to enhance your cinematic experience. Discover, decide, and delight in the world of movies with ease.",
+    url: "https://whimsical-kangaroo-b15ce3.netlify.app/",
   },
 ];

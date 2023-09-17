@@ -1,5 +1,31 @@
 .myworks-wrapper {
   color: #fff;
+  max-width: 90%;
+  margin: 20px auto auto auto;
+}
+
+.my-works-title {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-works-title > h1 {
+  font-size: 6rem !important;
+  font-family: cursive;
+}
+
+.content-box > p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #848080;
+}
+
+.content-box > h3 {
+  margin: 0;
+  font-family: cursive;
 }
 .myworks-wrapper > ul {
   list-style-type: none;
@@ -7,4 +33,38 @@
 .myworks-wrapper > ul > li > h3 {
   font-size: 5rem;
   margin: 35px 0;
+}
+.my-works-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 0;
+}
+.my-works-grid > li {
+  background-color: #141414;
+  border-radius: 8px;
+}
+.img-box {
+  height: 300px;
+}
+
+.img-box > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.content-box {
+  padding: 20px;
+}
+.content-box > a {
+  color: #fff;
+  background-color: red;
+  padding: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: 600;
 }

@@ -1,0 +1,41 @@
+* {
+  font-family: Fredoka One, sans-serif;
+  color: #fff;
+}
+
+.contact-title {
+  color: #fff;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-title > h1 {
+  font-size: 7rem;
+  font-family: cursive;
+}
+
+.my-contact-content {
+  max-width: 60%;
+  margin: 0 auto;
+}
+.social-box {
+  margin: 20px 0 50px 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.social-icon {
+  font-size: 2.5rem !important;
+}
+
+.my-contact-content > h3 {
+  font-size: 30px;
+  font-family: cursive;
+  color: red;
+}
+.my-contact-content > p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #a7a4a4;
+}
