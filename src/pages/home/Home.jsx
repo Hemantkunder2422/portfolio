@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
-import Profilepic from "../../../src/assets/images/DejanHome.png";
+import Profilepic from "../../../src/assets/images/profile.gif";
 import { Link } from "react-router-dom";
 
 const Home = () => {
