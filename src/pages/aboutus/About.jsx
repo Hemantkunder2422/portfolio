@@ -1,5 +1,4 @@
 import "./about.css";
-import heroimg from "../../assets/images/Dejan.png";
 import Navlink from "../../components/navlink/Navlink";
 import pdf from "../../assets/pdf/resume.pdf";
 

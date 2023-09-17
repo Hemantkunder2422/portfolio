@@ -52,13 +52,10 @@ const Contact = () => {
         </p>
         <p>Feel free to reach out through any platforms below:</p>
         <div className="social-box">
-          <a href="https://www.linkedin.com/in/hkunder/" target="_blank">
+          <a href="https://www.linkedin.com/in/hkunder/">
             <LinkedInIcon className="social-icon" />
           </a>
-          <a
-            href="https://github.com/Hemantkunder2422?tab=repositories"
-            target="_blank"
-          >
+          <a href="https://github.com/Hemantkunder2422?tab=repositories">
             <GitHubIcon className="social-icon" />
           </a>
           <Link href="#" onClick={handleCopyClick}>
